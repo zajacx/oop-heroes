@@ -1,0 +1,26 @@
+Ficzery, które miały być:
+
+1. Statystyki jednostek
+2. Rozwiązanie życia oddziału: po ataku na dany oddział obliczamy jego sumaryczne życie, a następnie bierzemy
+   sufit z dzielenia nowej wartości życia przez domyślną wartość życia pojedynczej jednostki w oddziale.
+3. Algorytm liczenia obrażeń - śmiga (ale tylko dla bonusów związanych z domyślnymi wartościami ataku i obrony
+   i ze szczęściem).
+4. Attack - atakowanie jednostki przeciwnika wręcz.
+5. Jednostki: Archer (strzelający), GreenDragon, Lich (implementujący atak obszarowy), Griffin (latający), Pikeman
+   (naziemny).
+6. Stan gry inicjowany statycznie.
+7. Gracze wykonują losowe ruchy i losowo rzucają zaklęcia (włącznie z wyborem braku zaklęcia w danym ruchu).
+8. Zakończenie gry, gdy jeden z graczy nie ma już jednostek.
+
+Rozszerzenia:
+
+1. Kontratak - przy pierwszym ataku wręcz w danej rundzie.
+2. Jednostka strzelająca i obliczanie obrażeń w zależności od odległości od przeciwnika.
+3. Atak obszarowy - Lich i Green Dragon.
+4. Morale i szczęście zaimplementowane zgodnie z dokumentacją gry.
+5. Magia - zdążyłem zaimplementować tylko Magic Arrow i Blessing, więc nie liczę tutaj na dwa punkty (...ale chociaż
+   na jeden, bo modyfikacji w kodzie przy jednym i drugim zaklęciu troszkę było).
+
+
+Po odpaleniu maina w przerwach między kolejnymi stanami planszy powinno być ładnie widać jakie akcje są wykonywane.
+
